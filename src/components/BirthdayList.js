@@ -21,7 +21,6 @@ function BirthdayList() {
                     </div>
                 )
             })}
-            <button className="btn add-btn">Add New</button>
             <button className="btn clear-btn" onClick={()=>setPeople([])}>Clear All</button>
         </div>
         
