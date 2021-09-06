@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#f28ab2 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Main-Content {
+  margin: 5% 35% 0%;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+}
+.person {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0;
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+  align-items: center;
+  text-align: left;
+  margin-left: 20px;
+}
+.person img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.details{
+  margin-left: 15px;
+  padding: 0px;
+}
+.person h4 {
+  margin-bottom: 0.20rem;
+  font-size: 20px;
+  
+}
+.person p {
+  margin-bottom: 0;
+}
+
+.add-btn{
+  background-color: #641ceb !important;
+  padding: 5px 30px !important;
+  color: #fff !important;
+  font-size: 23px !important;
+  margin-bottom: 20px;
+
+}
+
+.clear-btn{
+  background-color: #f28ab2 !important;
+  padding: 5px 30px !important;
+  color: #fff !important;
+  font-size: 23px !important;
+  margin: 0px 0px 20px 10px;
+
+}
